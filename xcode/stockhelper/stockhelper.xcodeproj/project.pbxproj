@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		680982CA25C5F8B80026ACD7 /* ChartBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680982C325C5F8B80026ACD7 /* ChartBar.swift */; };
+		680982CB25C5F8B80026ACD7 /* StockGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680982C425C5F8B80026ACD7 /* StockGraph.swift */; };
+		680982CC25C5F8B80026ACD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680982C525C5F8B80026ACD7 /* ContentView.swift */; };
+		680982CD25C5F8B80026ACD7 /* TradeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680982C725C5F8B80026ACD7 /* TradeList.swift */; };
+		680982CE25C5F8B80026ACD7 /* TradeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680982C825C5F8B80026ACD7 /* TradeRow.swift */; };
+		680982CF25C5F8B80026ACD7 /* TradeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680982C925C5F8B80026ACD7 /* TradeDetail.swift */; };
+		680982D325C5F8F30026ACD7 /* downloaded_tradingview_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 680982D125C5F8F30026ACD7 /* downloaded_tradingview_data.json */; };
+		680982D425C5F8F30026ACD7 /* all_trades.json in Resources */ = {isa = PBXBuildFile; fileRef = 680982D225C5F8F30026ACD7 /* all_trades.json */; };
+		683A74E025C5F73800CE6D17 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683A74DA25C5F73800CE6D17 /* Transaction.swift */; };
+		683A74E125C5F73800CE6D17 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683A74DB25C5F73800CE6D17 /* Script.swift */; };
+		683A74E225C5F73800CE6D17 /* StockInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683A74DC25C5F73800CE6D17 /* StockInfo.swift */; };
+		683A74E325C5F73800CE6D17 /* Trade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683A74DD25C5F73800CE6D17 /* Trade.swift */; };
+		683A74E425C5F73800CE6D17 /* SimpleStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683A74DE25C5F73800CE6D17 /* SimpleStatistics.swift */; };
+		683A74E525C5F73800CE6D17 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683A74DF25C5F73800CE6D17 /* ModelData.swift */; };
+		686CDA3F25C74AF700976733 /* Automator in Resources */ = {isa = PBXBuildFile; fileRef = 686CDA3E25C74AF700976733 /* Automator */; };
+		68B289C825C5F63E000F8642 /* stockhelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B289C725C5F63E000F8642 /* stockhelperApp.swift */; };
+		68B289CC25C5F63F000F8642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B289CB25C5F63F000F8642 /* Assets.xcassets */; };
+		68B289CF25C5F63F000F8642 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B289CE25C5F63F000F8642 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		680982C325C5F8B80026ACD7 /* ChartBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartBar.swift; sourceTree = "<group>"; };
+		680982C425C5F8B80026ACD7 /* StockGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockGraph.swift; sourceTree = "<group>"; };
+		680982C525C5F8B80026ACD7 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		680982C725C5F8B80026ACD7 /* TradeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradeList.swift; sourceTree = "<group>"; };
+		680982C825C5F8B80026ACD7 /* TradeRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradeRow.swift; sourceTree = "<group>"; };
+		680982C925C5F8B80026ACD7 /* TradeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradeDetail.swift; sourceTree = "<group>"; };
+		680982D125C5F8F30026ACD7 /* downloaded_tradingview_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = downloaded_tradingview_data.json; path = ../../../../bin/downloaded_tradingview_data.json; sourceTree = "<group>"; };
+		680982D225C5F8F30026ACD7 /* all_trades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = all_trades.json; path = ../../../../bin/all_trades.json; sourceTree = "<group>"; };
+		683A74DA25C5F73800CE6D17 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		683A74DB25C5F73800CE6D17 /* Script.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Script.swift; sourceTree = "<group>"; };
+		683A74DC25C5F73800CE6D17 /* StockInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockInfo.swift; sourceTree = "<group>"; };
+		683A74DD25C5F73800CE6D17 /* Trade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trade.swift; sourceTree = "<group>"; };
+		683A74DE25C5F73800CE6D17 /* SimpleStatistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleStatistics.swift; sourceTree = "<group>"; };
+		683A74DF25C5F73800CE6D17 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		686CDA3E25C74AF700976733 /* Automator */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Automator; sourceTree = "<group>"; };
+		68B289C425C5F63E000F8642 /* stockhelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stockhelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B289C725C5F63E000F8642 /* stockhelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stockhelperApp.swift; sourceTree = "<group>"; };
+		68B289CB25C5F63F000F8642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68B289CE25C5F63F000F8642 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68B289D025C5F63F000F8642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68B289C125C5F63E000F8642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		680982C225C5F8B80026ACD7 /* Stock */ = {
+			isa = PBXGroup;
+			children = (
+				680982C325C5F8B80026ACD7 /* ChartBar.swift */,
+				680982C425C5F8B80026ACD7 /* StockGraph.swift */,
+			);
+			path = Stock;
+			sourceTree = "<group>";
+		};
+		680982C625C5F8B80026ACD7 /* Trades */ = {
+			isa = PBXGroup;
+			children = (
+				680982C725C5F8B80026ACD7 /* TradeList.swift */,
+				680982C825C5F8B80026ACD7 /* TradeRow.swift */,
+				680982C925C5F8B80026ACD7 /* TradeDetail.swift */,
+			);
+			path = Trades;
+			sourceTree = "<group>";
+		};
+		683A74E725C5F74C00CE6D17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				680982D225C5F8F30026ACD7 /* all_trades.json */,
+				680982D125C5F8F30026ACD7 /* downloaded_tradingview_data.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		68B289BB25C5F63E000F8642 = {
+			isa = PBXGroup;
+			children = (
+				68B289C625C5F63E000F8642 /* stockhelper */,
+				68B289C525C5F63E000F8642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68B289C525C5F63E000F8642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68B289C425C5F63E000F8642 /* stockhelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68B289C625C5F63E000F8642 /* stockhelper */ = {
+			isa = PBXGroup;
+			children = (
+				680982C525C5F8B80026ACD7 /* ContentView.swift */,
+				686CDA3E25C74AF700976733 /* Automator */,
+				680982C225C5F8B80026ACD7 /* Stock */,
+				680982C625C5F8B80026ACD7 /* Trades */,
+				683A74E725C5F74C00CE6D17 /* Resources */,
+				68B289D825C5F6D3000F8642 /* Model */,
+				68B289C725C5F63E000F8642 /* stockhelperApp.swift */,
+				68B289CB25C5F63F000F8642 /* Assets.xcassets */,
+				68B289D025C5F63F000F8642 /* Info.plist */,
+				68B289CD25C5F63F000F8642 /* Preview Content */,
+			);
+			path = stockhelper;
+			sourceTree = "<group>";
+		};
+		68B289CD25C5F63F000F8642 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				68B289CE25C5F63F000F8642 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68B289D825C5F6D3000F8642 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				683A74DF25C5F73800CE6D17 /* ModelData.swift */,
+				683A74DB25C5F73800CE6D17 /* Script.swift */,
+				683A74DE25C5F73800CE6D17 /* SimpleStatistics.swift */,
+				683A74DC25C5F73800CE6D17 /* StockInfo.swift */,
+				683A74DD25C5F73800CE6D17 /* Trade.swift */,
+				683A74DA25C5F73800CE6D17 /* Transaction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68B289C325C5F63E000F8642 /* stockhelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B289D425C5F63F000F8642 /* Build configuration list for PBXNativeTarget "stockhelper" */;
+			buildPhases = (
+				68B289C025C5F63E000F8642 /* Sources */,
+				68B289C125C5F63E000F8642 /* Frameworks */,
+				68B289C225C5F63E000F8642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stockhelper;
+			productName = stockhelper;
+			productReference = 68B289C425C5F63E000F8642 /* stockhelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68B289BC25C5F63E000F8642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					68B289C325C5F63E000F8642 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 68B289BF25C5F63E000F8642 /* Build configuration list for PBXProject "stockhelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68B289BB25C5F63E000F8642;
+			productRefGroup = 68B289C525C5F63E000F8642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68B289C325C5F63E000F8642 /* stockhelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68B289C225C5F63E000F8642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B289CF25C5F63F000F8642 /* Preview Assets.xcassets in Resources */,
+				686CDA3F25C74AF700976733 /* Automator in Resources */,
+				680982D425C5F8F30026ACD7 /* all_trades.json in Resources */,
+				68B289CC25C5F63F000F8642 /* Assets.xcassets in Resources */,
+				680982D325C5F8F30026ACD7 /* downloaded_tradingview_data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68B289C025C5F63E000F8642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680982CA25C5F8B80026ACD7 /* ChartBar.swift in Sources */,
+				683A74E125C5F73800CE6D17 /* Script.swift in Sources */,
+				680982CB25C5F8B80026ACD7 /* StockGraph.swift in Sources */,
+				683A74E225C5F73800CE6D17 /* StockInfo.swift in Sources */,
+				683A74E425C5F73800CE6D17 /* SimpleStatistics.swift in Sources */,
+				683A74E325C5F73800CE6D17 /* Trade.swift in Sources */,
+				680982CC25C5F8B80026ACD7 /* ContentView.swift in Sources */,
+				683A74E525C5F73800CE6D17 /* ModelData.swift in Sources */,
+				680982CF25C5F8B80026ACD7 /* TradeDetail.swift in Sources */,
+				680982CD25C5F8B80026ACD7 /* TradeList.swift in Sources */,
+				680982CE25C5F8B80026ACD7 /* TradeRow.swift in Sources */,
+				68B289C825C5F63E000F8642 /* stockhelperApp.swift in Sources */,
+				683A74E025C5F73800CE6D17 /* Transaction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68B289D225C5F63F000F8642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68B289D325C5F63F000F8642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		68B289D525C5F63F000F8642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = stockhelper/stockhelper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"stockhelper/Preview Content\"";
+				DEVELOPMENT_TEAM = VSM97694J3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = stockhelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = albin.stockhelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		68B289D625C5F63F000F8642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = stockhelper/stockhelper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"stockhelper/Preview Content\"";
+				DEVELOPMENT_TEAM = VSM97694J3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = stockhelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = albin.stockhelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68B289BF25C5F63E000F8642 /* Build configuration list for PBXProject "stockhelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B289D225C5F63F000F8642 /* Debug */,
+				68B289D325C5F63F000F8642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B289D425C5F63F000F8642 /* Build configuration list for PBXNativeTarget "stockhelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B289D525C5F63F000F8642 /* Debug */,
+				68B289D625C5F63F000F8642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68B289BC25C5F63E000F8642 /* Project object */;
+}
